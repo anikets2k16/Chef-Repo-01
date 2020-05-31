@@ -354,6 +354,7 @@ action :install do
 
   service 'nginx' do
     supports status: true, restart: true, reload: true
+    ignore_failure true
     action   [:start, :enable]
   end
 end
