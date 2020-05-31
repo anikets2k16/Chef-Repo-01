@@ -1,0 +1,39 @@
+{
+  "revision_id": "a9fe14b2551523f95f5f6152156f687a2586b40cc8a01bad637145d0080bd9b5",
+  "name": "example-application-service",
+  "run_list": [
+    "recipe[cookbook-test::default]"
+  ],
+  "cookbook_locks": {
+    "cookbook-test": {
+      "version": "0.1.0",
+      "identifier": "da77074c9cfc8bd0ddd942e1a570565cc1af1b4c",
+      "dotted_decimal_identifier": "61492418156756107.58790720355542384.94956386458444",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "cookbook-test",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "cookbook-test (0.1.0)": [
+
+      ]
+    }
+  }
+}

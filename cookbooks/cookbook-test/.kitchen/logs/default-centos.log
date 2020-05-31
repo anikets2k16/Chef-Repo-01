@@ -1,0 +1,6 @@
+I, [2020-05-30T18:03:34.741368 #18866]  INFO -- default-centos: -----> Destroying <default-centos>...
+I, [2020-05-30T18:03:34.792747 #18866]  INFO -- default-centos: UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+I, [2020-05-30T18:03:34.792907 #18866]  INFO -- default-centos: root                18270               18236               0                   17:58               ?                   00:00:00            /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=no -o PasswordAuthentication=yes -o UsePrivilegeSeparation=no -o PidFile=/tmp/sshd.pid
+I, [2020-05-30T18:03:35.087382 #18866]  INFO -- default-centos: c54c925836794a6e8cd0a618c958b37ac5ade334fdb1659650077afe9fdab710
+I, [2020-05-30T18:03:35.145182 #18866]  INFO -- default-centos: c54c925836794a6e8cd0a618c958b37ac5ade334fdb1659650077afe9fdab710
+I, [2020-05-30T18:03:35.158728 #18866]  INFO -- default-centos: Finished destroying <default-centos> (0m0.42s).

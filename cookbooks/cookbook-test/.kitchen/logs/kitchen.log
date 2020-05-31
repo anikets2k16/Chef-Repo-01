@@ -1,0 +1,3 @@
+I, [2020-05-30T18:03:34.067606 #18866]  INFO -- Kitchen: -----> Starting Kitchen (v1.13.2)
+I, [2020-05-30T18:03:34.741285 #18866]  INFO -- Kitchen: -----> Destroying <default-centos>...
+I, [2020-05-30T18:03:35.159414 #18866]  INFO -- Kitchen: -----> Kitchen is finished. (0m1.09s)

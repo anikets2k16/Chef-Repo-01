@@ -1,0 +1,17 @@
+FROM centos:latest
+RUN yum install -y sudo openssh-server openssh-clients which curl
+RUN ssh-keygen -A
+RUN mkdir -p /var/run/sshd
+RUN username=kitchen
+RUN password=kitchen
+RUN useradd -m kitchen
+RUN echo "kitchen:kitchen" | chpasswd
+RUN echo "kitchen ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+RUN mkdir -p /home/kitchen/.ssh
+RUN chown -R kitchen /home/kitchen/.ssh
+RUN chmod 0700 /home/kitchen/.ssh
+RUN touch /home/kitchen/.ssh/authorized_keys
+RUN chown kitchen /home/kitchen/.ssh/authorized_keys
+RUN chmod 0600 /home/kitchen/.ssh/authorized_keys
+RUN yum clean all
+
